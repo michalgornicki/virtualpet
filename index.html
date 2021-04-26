@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
 
-<!-- BOOTSTRAP CDN AND CUSTOMISED CSS LINKS -->
+<head>
 
-<link rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Andada&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<meta charset="utf-8">
-<title></title>
-  </head>
-  <body>
+  <!-- BOOTSTRAP CDN AND CUSTOMISED CSS LINKS -->
 
-<div id="animal-container">
-<img id="heart-animation" src="heart.png"></div>
-<img src="blank.png" id="animal">
-</div>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Andada&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title></title>
+</head>
 
-<div class="stats">
-<div id="health-points">HEALTH</div>
-<div id="food">FOOD</div>
-<div id="water">WATER</div>
-<div id="fun">FUN</div>
-</div>
+<body>
 
-<ul id="animal-list">
-  <li id="canary" onclick=canary()>canary</li>
-  <li onclick=cow()>cow</li>
-  <li onclick=elephant()>elephant</li>
-  <li onclick=mouse()>mouse</li>
-  <li onclick=monkey()>monkey</li>
-</ul>
+  <div id="animal-container">
+    <img id="heart-animation" src="heart.png">
+    <img src="blank.png" id="animal">
 
-<div id="okay-button" onclick=confirmAnimal()>OKAY</div>
+  </div>
 
-<img src="food.png" alt="" id="fodder">
-<img src="water.png" alt="" id="watering">
-<img src="fun.png" alt="" id="playing">
 
-<div id="food-limit"></div>
-<div id="water-limit"></div>
-<div id="fun-limit"></div>
-<div id="health-points-limit"></div>
+  <div id="animal-list">
+    <div class="animal-list-item" onclick=canary()>canary</div>
+    <div class="animal-list-item" onclick=cow()>cow</div>
+    <div class="animal-list-item" onclick=elephant()>elephant</div>
+    <div class="animal-list-item" onclick=mouse()>mouse</div>
+    <div class="animal-list-item" onclick=monkey()>monkey</div>
+  </div>
 
-<div id="sound"></div>
-<div id="sound1"></div>
-<div id="sound2"></div>
+  <div id="okay-button" onclick=confirmAnimal()>OKAY</div>
 
-</div>
+  <div class="stats-and-items">
 
-<div id="animal-selected-name"></div>
+    <div class="stats">
+      <div id="health-points">HEALTH</div>
+      <div id="food">FOOD</div>
+      <div id="water">WATER</div>
+      <div id="fun">FUN</div>
+    </div>
 
-    <script src="myScript.js"></script>
-  </body>
+    <div class="items">
+      <img src="food.png" alt="" id="food-supply">
+      <img src="water.png" alt="" id="water-supply">
+      <img src="fun.png" alt="" id="play-supply">
+    </div>
+
+  </div>
+
+  <a href="index.html">
+    <img src="back.png" alt="" class="back">
+  </a>
+
+  <div id="food-limit"></div>
+  <div id="water-limit"></div>
+  <div id="fun-limit"></div>
+  <div id="health-points-limit"></div>
+
+  <div id="sound"></div>
+  <div id="sound1"></div>
+  <div id="sound2"></div>
+
+  </div>
+
+  <div id="animal-selected-name"></div>
+
+  <script src="myScript.js"></script>
+</body>
+
 </html>

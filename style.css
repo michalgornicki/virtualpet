@@ -1,5 +1,5 @@
 body {
-  font-family: 'Original Surfer', cursive;
+  font-family: 'Press Start 2P', cursive;
   height: 100%;
   transition: 1s;
   background-color: rgb(228, 228, 228);
@@ -9,7 +9,7 @@ body {
   background-size: 15vmin;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
 #animal {
   position: relative;
@@ -352,7 +352,7 @@ body {
   }
 
   #health-points, #food, #water, #fun {
-    font-size: 5vmin;
+    font-size: 5.5vmin;
     padding-right: 25vmin;
   }
 
@@ -370,11 +370,11 @@ body {
     margin-left: 20%;    
     padding-top: 1vmin;
     padding-bottom: 1vmin;
-    font-size: 8vmin;
+    font-size: 6vmin;
   }
 
   #okay-button{
-    font-size: 8vmin;
+    font-size: 6vmin;
     padding: 5vmin;
     width: 30%;
   }

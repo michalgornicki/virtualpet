@@ -351,6 +351,7 @@ body {
 
   #health-points, #food, #water, #fun {
     font-size: 5vmin;
+    padding-right: 25vmin;
   }
 
   #animal-list {
